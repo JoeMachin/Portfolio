@@ -143,6 +143,10 @@ main li > strong:first-of-type {
   margin-bottom: 2px;
 }
 
+/* Softer grey for value descriptions */
+main li .desc {
+  color: var(--muted);
+}
 
 
 
