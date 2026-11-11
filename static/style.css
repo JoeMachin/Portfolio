@@ -137,6 +137,11 @@ main ul:has(> li > i:first-child) > li > i:first-child {
     transition: none;
   }
 }
+/* Value name on its own line, description underneath */
+main li > strong:first-of-type {
+  display: block;
+  margin-bottom: 2px;
+}
 
 
 
