@@ -89,13 +89,18 @@ code { font-family: ui-monospace, Menlo, Consolas, monospace; }
   padding-left: 0;
 }
 
-li:has(> .fa-solid:first-child) {
+main ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+main li {
   position: relative;
   padding-left: 2.2rem;
   margin-bottom: 14px;
 }
 
-li > .fa-solid:first-child {
+main li > i:first-child {
   position: absolute;
   left: 0;
   top: 0.4em;
@@ -103,6 +108,7 @@ li > .fa-solid:first-child {
   text-align: center;
   color: var(--muted);
 }
+
 
   
 }
