@@ -44,7 +44,7 @@ def collect(folder):
 
 def render(title, content, url, desc=""):
     tpl = (ROOT / "templates" / "base.html").read_text(encoding="utf-8")
-        cur = "/about/" if url == "/" else url
+    cur = "/about/" if url == "/" else url
     links = []
     for n, u in NAV:
         mark = ' aria-current="page"' if cur.startswith(u) else ""
