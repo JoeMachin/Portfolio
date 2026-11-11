@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/static/style.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="site-header">
@@ -24,5 +25,23 @@
   <footer class="site-footer">
     <p>&copy; {{site_title}}</p>
   </footer>
+  <script>
+    (function () {
+      var items = document.querySelectorAll("main > :not(ul), main li");
+      if (!("IntersectionObserver" in window)) {
+        items.forEach(function (el) { el.classList.add("in"); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add("in");
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+      items.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
 </body>
 </html>
