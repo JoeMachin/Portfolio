@@ -13,7 +13,7 @@ Good design to me is solving a problem elegantly. Elegance means coherence, rest
 
 ## What I value
 
-- <i class="fa-regular fa-circle-question" aria-hidden="true"></i> **Humility** Great products and organisations come from people who say “I don’t know” and “I got that wrong” early and often.
-- <i class="fa-regular fa-eye" aria-hidden="true"></i> **Evidence over assumption** Put something in front of people, learn from it, iterate. Assumptions are a useful starting point, but they’re there to be tested, not to steer product direction.
-- <i class="fa-regular fa-comments" aria-hidden="true"></i> **Effective storytelling** Design is storytelling at different levels of fidelity, depth and abstraction. Getting it right depends on the stage of work, the audience, and your motivation for telling the story. Sharing visual designs with stakeholders who don’t yet understand the why of your work will almost certainly create more confusion than clarity, for everyone involved.
-- <i class="fa-regular fa-gem" aria-hidden="true"></i> **Function and form together** Beautiful but confusing is decoration; capable but neglected is unfinished.
+- <i class="fa-regular fa-circle-question" aria-hidden="true"></i> **Humility** <span class="desc">Great products and organisations come from people who say “I don’t know” and “I got that wrong” early and often.</span>
+- <i class="fa-regular fa-eye" aria-hidden="true"></i> **Evidence over assumption** <span class="desc">Put something in front of people, learn from it, iterate. Assumptions are a useful starting point, but they’re there to be tested, not to steer product direction.</span>
+- <i class="fa-regular fa-comments" aria-hidden="true"></i> **Effective storytelling** <span class="desc">Design is storytelling at different levels of fidelity, depth and abstraction. Getting it right depends on the stage of work, the audience, and your motivation for telling the story. Sharing visual designs with stakeholders who don’t yet understand the why of your work will almost certainly create more confusion than clarity, for everyone involved.</span>
+- <i class="fa-regular fa-gem" aria-hidden="true"></i> **Function and form together** <span class="desc">Beautiful but confusing is decoration; capable but neglected is unfinished.</span>
