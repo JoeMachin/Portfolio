@@ -7,8 +7,8 @@ import markdown
 import yaml
 from PIL import Image
 
-SITE_TITLE = "Your Name"
-SITE_URL = "https://yourusername.github.io"
+SITE_TITLE = "Joe Machin"
+SITE_URL = "https://joemachin.github.io"
 SITE_DESC = "Product designer portfolio"
 
 ROOT = Path(__file__).parent
