@@ -1,10 +1,12 @@
 :root {
-  --bg: #ede8dd;      /* Schoolhouse White (approx.) */
-  --text: #2a2622;
+  --bg: #f4f1eb;
+  --text: #373737;
   --muted: #6f685e;
-  --line: #d9d2c3;
-  --link: #2a2622;
-  --accent: #873631;  /* Eating Room Red (approx.) */
+  --line: #ddd7ca;
+  --link: #373737;
+  --accent: #72262e;
+}
+
 }
 
 @media (prefers-color-scheme: dark) {
