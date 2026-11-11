@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <link rel="alternate" type="application/rss+xml" title="Notes" href="/rss.xml">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="/">{{site_title}}</a>
+    <nav>{{nav}}</nav>
+  </header>
+  <main>
+    {{content}}
+  </main>
+  <footer class="site-footer">
+    <p>&copy; {{site_title}}</p>
+  </footer>
+</body>
+</html>
