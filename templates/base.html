@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/@proicons/webfont">
+  <script src="https://unpkg.com/proicons"></script>
   <link rel="stylesheet" href="/static/style.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
@@ -25,6 +25,7 @@
   <footer class="site-footer">
     <p>&copy; {{site_title}}</p>
   </footer>
+    <script>if (window.proicons) proicons.replace();</script>
   <script>
     (function () {
       var items = document.querySelectorAll("main > :not(ul), main li");
