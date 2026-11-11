@@ -148,6 +148,26 @@ main li .desc {
   color: var(--muted);
 }
 
+/* Icon lists (SVG version) */
+main ul:has(> li > svg:first-child) {
+  list-style: none;
+  padding-left: 0;
+}
+
+main ul:has(> li > svg:first-child) > li {
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 14px;
+}
+
+main ul:has(> li > svg:first-child) > li > svg:first-child {
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--muted);
+}
 
 
 
