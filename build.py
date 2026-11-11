@@ -44,7 +44,12 @@ def collect(folder):
 
 def render(title, content, url, desc=""):
     tpl = (ROOT / "templates" / "base.html").read_text(encoding="utf-8")
-    nav = "".join(f'<a href="{u}">{n}</a>' for n, u in NAV)
+        cur = "/about/" if url == "/" else url
+    links = []
+    for n, u in NAV:
+        mark = ' aria-current="page"' if cur.startswith(u) else ""
+        links.append(f'<a href="{u}"{mark}>{n}</a>')
+    nav = "".join(links)
     full_title = SITE_TITLE if url == "/" else f"{title} - {SITE_TITLE}"
     values = {
         "title": full_title,
