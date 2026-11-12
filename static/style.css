@@ -35,7 +35,6 @@ body {
   padding: 24px 20px;
 }
 
-/* Vertical menu */
 .site-header {
   padding-top: 56px;
   padding-bottom: 72px;
@@ -95,26 +94,35 @@ code { font-family: ui-monospace, Menlo, Consolas, monospace; }
   margin-top: 48px;
 }
 
-/* Icon lists: the icon replaces the bullet */
-main ul:has(> li > i:first-child) {
+/* Values list: icon beside the name, description below */
+.values {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
-main ul:has(> li > i:first-child) > li {
-  position: relative;
-  padding-left: 2.2rem;
-  margin-bottom: 14px;
+.values li {
+  margin-bottom: 22px;
 }
 
-main ul:has(> li > i:first-child) > li > i:first-child {
-  position: absolute;
-  left: 0;
-  top: 0.35em;
-  width: 1.5rem;
-  text-align: center;
+.values svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.6rem;
+  vertical-align: -0.22em;
   color: var(--muted);
 }
+
+.values strong {
+  font-weight: 600;
+}
+
+.values .desc {
+  display: block;
+  margin: 4px 0 0 1.95rem;
+  color: var(--muted);
+}
+
 /* Scroll reveal */
 .js main > :not(ul),
 .js main li {
@@ -137,37 +145,3 @@ main ul:has(> li > i:first-child) > li > i:first-child {
     transition: none;
   }
 }
-/* Value name on its own line, description underneath */
-main li > strong:first-of-type {
-  display: block;
-  margin-bottom: 2px;
-}
-
-/* Softer grey for value descriptions */
-main li .desc {
-  color: var(--muted);
-}
-
-/* Icon lists (SVG version) */
-main ul:has(> li > svg:first-child) {
-  list-style: none;
-  padding-left: 0;
-}
-
-main ul:has(> li > svg:first-child) > li {
-  position: relative;
-  padding-left: 2.2rem;
-  margin-bottom: 14px;
-}
-
-main ul:has(> li > svg:first-child) > li > svg:first-child {
-  position: absolute;
-  left: 0;
-  top: 0.3em;
-  width: 1.4rem;
-  height: 1.4rem;
-  color: var(--muted);
-}
-
-
-
